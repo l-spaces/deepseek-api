@@ -443,7 +443,7 @@
         "rememberSession": "Remember this session",
         "signIn": "Sign in",
         "secureConnection": "Secure connection",
-        "adminPortal": "DS2API admin portal",
+        "adminPortal": "admin portal",
         "signInFailed": "Sign-in failed.",
         "networkError": "Network error: {error}"
     },
