@@ -28,60 +28,9 @@ const welcomeHTML = `
         justify-content: center;
         margin: 0
     }
-    .ball {
-        position: relative;
-        bottom: 50px;
-        left: calc(100% - 20px);
-        width: 50px;
-        height: 50px;
-        background: #fff;
-        border-radius: 50%;
-        animation: ball-move8234 3s ease-in-out 1s infinite alternate;
-    }
 
-    .ball::after {
-        position: absolute;
-        content: '';
-        top: 25px;
-        right: 5px;
-        width: 5px;
-        height: 5px;
-        background: #000;
-        border-radius: 50%;
-    }
-
-    .bar {
-        width: 200px;
-        height: 12.5px;
-        background: #FFDAAF;
-        border-radius: 30px;
-        transform: rotate(-15deg);
-        animation: up-down6123 3s ease-in-out 1s infinite alternate;
-    }
-
-    @keyframes up-down6123 {
-        from {
-            transform: rotate(-15deg);
-        }
-
-        to {
-            transform: rotate(15deg);
-        }
-    }
-
-    @keyframes ball-move8234 {
-        from {
-            left: calc(100% - 40px);
-            transform: rotate(360deg);
-        }
-
-        to {
-            left: calc(0% - 20px);
-            transform: rotate(0deg);
-        }
-    }
     a {
-        color: #f59e0b;
+        color: #45f50b;
         text-decoration: none
     }
 
@@ -116,19 +65,15 @@ const welcomeHTML = `
     }</style>
 </head>
 <body>
-<div class="bar">
-    <div class="ball"></div>
-</div>
-<div>
 <main class="screen-content"><h1>DeepSeek API</h1>
-    <p> OpenAI & Claude </p>
-    <p> 可在 Codex & Claude & Trae 使用</p>
-    <div class="links_api"><a href="/v1/models">API 状态</a></div>
-    <div class="links_admin"><a href="/admin">管理面板</a></div>
+    <p> 兼容 OpenAI & Claude </p>
+    <p> 可在 Codex & Claude & Trae 等使用</p>
+    <div class="links_api"><a href="/v1/models">模型</a></div>
+    <div class="links_admin"><a style="color: #454444" href="/admin">管理面板</a></div>
 </main>
-</div>
 </body>
 </html>
+
 
 `
 
