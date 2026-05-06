@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepSeek</title>
+    <link rel="icon" type="image/svg+xml" href="/ds2api-favicon.svg" />
+    <style>body {
+        font-family: Inter, system-ui, sans-serif;
+        background: #030712;
+        color: #f9fafb;
+        display: flex;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+        margin: 0
+    }
+
+    a {
+        color: #45f50b;
+        text-decoration: none
+    }
+
+    main {
+        max-width: 700px;
+        padding: 24px;
+        text-align: center
+    }
+
+    h1 {
+        font-size: 48px;
+        margin: 0 0 12px
+    }
+
+    .links {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        margin-top: 20px;
+        flex-wrap: wrap
+    }
+
+    .links::before {
+        content: "管理面板";
+        visibility: hidden
+    }
+
+    .links_admin a[href="/admin"] {
+        position: fixed;
+        right: 24px;
+        bottom: 24px
+    }</style>
+</head>
+<body>
+<main class="screen-content"><h1>DeepSeek API</h1>
+    <p> 兼容 OpenAI & Claude </p>
+    <p> 可在 Codex & Claude & Trae 等使用</p>
+    <div class="links_api"><a href="/v1/models">模型</a></div>
+    <div class="links_admin"><a style="color: #454444" href="/admin">管理面板</a></div>
+</main>
+</body>
+</html>
