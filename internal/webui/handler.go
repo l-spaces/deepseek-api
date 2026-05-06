@@ -19,6 +19,7 @@ const welcomeHTML = `
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DeepSeek</title>
     <link rel="icon" type="image/svg+xml" href="/admin/ds2api-favicon.svg" />
+    <script defer src="/_vercel/insights/script.js"></script>
     <style>body {
         font-family: Inter, system-ui, sans-serif;
         background: #030712;
